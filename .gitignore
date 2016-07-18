@@ -1,0 +1,26 @@
+*.class
+*.log
+
+# mac os x
+.DS_Store
+
+# intellij ide
+.idea
+# *.iml is coverd by .idea
+# *.iml
+
+# sbt specific
+.cache
+# .history is coverd by target/
+# .history
+.settings/
+dist/*
+target/
+project/target
+project/project
+# project/boot/
+# project/plugins/project/
+
+# scala
+#.classpath
+
